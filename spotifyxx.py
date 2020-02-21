@@ -95,7 +95,6 @@ for track in not_found_tracks:
         elif re.search(r"\(.*([Rr]emix).*\)", track['title']):
             count_is_remix += 1
         # if is a mix
-        # add set to this
         elif re.search(r"^((?!.*\([Oo]riginal).*([ (][Mm]ix\b))|([Ss]et\b).*", track['title']):
             count_is_mix += 1
         else:
